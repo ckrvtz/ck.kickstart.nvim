@@ -437,7 +437,6 @@ do
   vim.cmd.colorscheme 'tokyonight-night'
 
   -- Set transparent background for everything except cursor line
-  vim.cmd.colorscheme 'tokyonight-night'
   vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
   vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
   -- vim.api.nvim_set_hl(0, 'CursorLine', { bg = 'none' })
